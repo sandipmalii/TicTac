@@ -1,0 +1,33 @@
+body {
+    background-color: #333; /* Apply background color to all elements */
+  }
+  
+  footer {
+    background-color: #000; /* Footer background color set to black */
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footercontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  @media (max-width: 768px) {
+    nav a {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  
