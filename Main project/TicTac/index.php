@@ -33,33 +33,28 @@
   echo '<script src="responsive-navbar-tictactoe/assets/js/main.js"></script>';
   ?>
 
-  <div container="mainm">
-    <div class='' style='display:flex; gap:20px;'>
+  <div class="entry-section">
+      <div class="left">
+        <img class="entry-banner" src="./Components/images/ticc.svg" alt="main img">
+      </div>
+      <div class="right">
+        <h1 class="entry-heading"> 
+        Play TicTacToe <br>#Online</br>
+        <h1>
+        <div class="buttons">
+          <a href="Link here" class="entry-button" target="_blank" rel=""> <img class="icon"
+              src="./Components/images/world.svg" width='40'>  <p> Play Online</p></a>
 
-      <div class="maiimg">
-        <img src="./Components/images/ticc.svg" alt="main img">
+          <a href="./Components/HTMLS/mainboard.html" class="entry-button" target="_blank" rel=""> <img class="icon"
+              src="./Components/images/cp.svg" width='40'> <p> Vs Computer</p></a>
+
+          <a href="link" class="entry-button" target="_blank" rel=""> <img class="icon"
+              src="./Components/images/friend.svg" width='40'> <p> Vs Friends</p></a>
+
       </div>
 
-
-      <div class="side">
       </div>
-      <div class="rightup">
-        <h1 class="texxt"> Play TicTacToe <br>#Online</br>
-          <h1>
-      </div>
-
-      <div class="containerr">
-        <div class="buttonss">
-          <a href="Link here" class="buttonss3" target="_blank" rel=""> <img class="icon" src="./Components/images/world.svg"> Play Online</a>
-
-          <a href="./Components/HTMLS/mainboard.html" class="buttonss3" target="_blank" rel=""> <img class="icon" src="./Components/images/cp.svg">Vs Computer</a>
-
-          <a href="link" class="buttonss3" target="_blank" rel=""> <img class="icon" src="./Components/images/friend.svg">Vs Friends</a>
-
-        </div>
-      </div>
-
-    </div>
+  </div>
 
 
     <?php
@@ -83,7 +78,7 @@
           <h3>Leaderboard </h3><br></br>
           <h4>World Ranking</h4><br>
         </div>
-        <div class="p-0">
+        <div class="p-0 ranking-board">
           <div class="overflow-auto">
             <div class="relative w-full overflow-auto">
               <table id="leaderboardTable" class="w-full caption-bottom text-sm">
